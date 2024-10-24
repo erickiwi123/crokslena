@@ -21,7 +21,7 @@ footer{
 
 
 #container{
-     paiing: 2rem;
+     padiing: 2rem;
      display: flex;
      gap: 3rem;
      flex-wrap: wrap;
