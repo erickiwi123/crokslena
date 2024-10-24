@@ -41,7 +41,7 @@ footer{
     color: var(--branco);
     text-align: center;
     transform-style: preserve-3d;
-    transition: transforme 300ms ease-in-out;
+    transition: transform 300ms ease-in-out;
  }
 
  .conteudo-cartao h3{
