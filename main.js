@@ -13,5 +13,7 @@ cartao.innerHTML = `
  </div>
 </div>
 `
+let respostaetavisivel =
+
 container.appendChild(cartao);
 }
