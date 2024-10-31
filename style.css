@@ -17,7 +17,7 @@ header{
    justify-content: space-around;
 }
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: var(--preto);
     color: var(--branco);
