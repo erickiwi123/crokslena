@@ -1,7 +1,7 @@
 :root{
     --fundo: #9370DB;
    --cor-frente: #4B0082;
-   --cor-verso: #8B008B;
+   --cor-verso: #191970;
    --destaque: #8B008B;
    --preto: #000000;
    --branco: #ffffff;
@@ -10,7 +10,12 @@ body{
     background-color: var(--fundo);
     margin: 0;
 }
-
+header{
+   background-color: var(--preto);
+   padding: 40px;
+   display: flex;
+   justify-content: space-around;
+}
 footer{
     position: absolute;
     bottom: 0;
