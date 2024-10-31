@@ -1,0 +1,39 @@
+:root{
+    --fundo: #9370DB;
+   --cor-frente: #4B0082;
+   --cor-verso: #191970;
+   --destaque: #8B008B;
+   --preto: #000000;
+   --branco: #ffffff;
+}
+body{
+    background-color: var(--fundo);
+    margin: 0;
+}
+header{
+   background-color: var(--preto);
+   padding: 40px;
+   display: flex;
+   justify-content: space-around;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: var(--preto);
+    color: var(--branco);
+    width: 100%;
+    text-align: center;
+}
+#container{
+    padding: 20rem;
+    display: grid;
+    gap: 4rem;
+}
+.cartao{
+    background-color: var(--cor-frente);
+    color: var(--branco);
+    padding: 40px;
+}
+.cartao:hover{
+    transform: scale(1.04);
+}
