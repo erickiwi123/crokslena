@@ -25,7 +25,7 @@ footer{
     text-align: center;
 }
 #container{
-    padding: 20rem;
+    padding: 3rem;
     display: grid;
     gap: 4rem;
 }
